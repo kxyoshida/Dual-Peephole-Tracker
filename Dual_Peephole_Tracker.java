@@ -33,7 +33,7 @@ public class Dual_Peephole_Tracker implements PlugInFilter {
     double[] ay=new double[3];
     double[] by=new double[3];
     String title;
-    String outdir = "tmp";
+    String outdir = "work/tmp";
     /* located in the root of the ImageJ folder */
 
     class dPoint {
