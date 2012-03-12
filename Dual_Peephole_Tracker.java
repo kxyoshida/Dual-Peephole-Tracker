@@ -165,6 +165,8 @@ public class Dual_Peephole_Tracker implements PlugInFilter {
 		    jmax=j;
 		}
 	    }
+	    chaseSpot(ip, jmax, fr, centX, centY);
+	    // line added on 12 March 2012
 	}
 
 
